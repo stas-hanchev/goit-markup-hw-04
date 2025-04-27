@@ -104,7 +104,6 @@ header .logo span {
     width: 48px;
     height: 4px;
     background-color: #404bbf;
-
     position: absolute;
     display: inline-block;
     content: '';
@@ -141,6 +140,7 @@ header .logo span {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 1440px;
 }
 
 .hero {
@@ -188,6 +188,7 @@ header .logo span {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover, .hero-btn:focus {
