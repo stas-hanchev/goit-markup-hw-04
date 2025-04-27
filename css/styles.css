@@ -417,7 +417,11 @@ header .logo span {
 
 .footer-content {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-text {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -472,7 +476,7 @@ header .logo span {
 }
 
 .social-media-icon {
-    fill: white;
+    fill: #f4f4fd;
 }
 
 .social-media-link:hover, .social-media-link:focus {
